@@ -1,24 +1,24 @@
 body{
   min-height:100vh;
-  /*display:*/
-  /*flex-direction:*/
+  display: flex;
+  flex-direction: column;
 }
 body>*{
-  /*display:*/
+  display: inline;
 }
 main{
-  /*flex-grow:*/
-  /*display:*/
-  /*flex-direction:*/
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
 }
 .content{
-  /*flex-grow:*/
+  flex-grow: 2;
 }
 nav{
-  /*order:*/
+  order: -1;
 }
 aside{
-  /*order:*/
+  order: 4;
 }
 
 main>*{
@@ -39,7 +39,7 @@ nav, aside{
 
 @media screen and (max-width: 620px){
   main{
-    /*flex-direction:*/
+    flex-direction: column;
   }
   main>*:not(:nth-child(1)){
     margin-left:10px;

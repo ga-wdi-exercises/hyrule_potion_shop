@@ -1,24 +1,15 @@
 body{
   min-height:100vh;
-  display:flex;
-  flex-direction:column;
 }
 body>*{
-  display:flex;
 }
 main{
-  flex-grow:1;
-  display:flex;
-  flex-direction:row;
 }
 .content{
-  flex-grow:1;
 }
 nav{
-  order:-1;
 }
 aside{
-  order:1;
 }
 
 main>*{
@@ -39,7 +30,6 @@ nav, aside{
 
 @media screen and (max-width: 620px){
   main{
-    flex-direction:column;
   }
   main>*:not(:nth-child(1)){
     margin-left:10px;

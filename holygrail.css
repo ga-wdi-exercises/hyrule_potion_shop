@@ -1,15 +1,24 @@
 body{
   min-height:100vh;
+  /*display:*/
+  /*flex-direction:*/
 }
 body>*{
+  /*display:*/
 }
 main{
+  /*flex-grow:*/
+  /*display:*/
+  /*flex-direction:*/
 }
 .content{
+  /*flex-grow:*/
 }
 nav{
+  /*order:*/
 }
 aside{
+  /*order:*/
 }
 
 main>*{
@@ -30,6 +39,7 @@ nav, aside{
 
 @media screen and (max-width: 620px){
   main{
+    /*flex-direction:*/
   }
   main>*:not(:nth-child(1)){
     margin-left:10px;

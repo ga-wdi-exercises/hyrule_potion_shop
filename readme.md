@@ -4,4 +4,4 @@ All the flexbox properties have been removed from `holygrail.css`. Fill in the b
 
 Hint: It should follow the concept of the "Holy Grail" layout.
 
-http://ga-dc.github.io/hyrule_potion_shop
+Here's one solution: http://ga-dc.github.io/hyrule_potion_shop

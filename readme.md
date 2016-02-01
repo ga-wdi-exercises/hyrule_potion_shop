@@ -2,6 +2,24 @@
 
 All the flexbox properties have been removed from `holygrail.css`. Fill in the blanks to make the website look nice and responsive again!
 
-Hint: It should follow the concept of the "Holy Grail" layout.
+It should follow the concept of the [Holy Grail layout](https://mdn.mozillademos.org/files/3760/HolyGrailLayout.png).
+
+For example, this:
+
+```css
+div{
+  /*background-color:*/
+}
+```
+
+...should become this:
+
+```css
+div{
+  background-color:blue;
+}
+```
+
+Feel free to take a look at our solution at the link below -- but only peek at the CSS if you're really stuck!
 
 http://ga-dc.github.io/hyrule_potion_shop

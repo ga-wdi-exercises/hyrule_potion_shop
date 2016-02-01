@@ -22,4 +22,4 @@ div{
 
 Feel free to take a look at our solution at the link below -- but only peek at the CSS if you're really stuck!
 
-http://ga-dc.github.io/hyrule_potion_shop
+Here's one solution: http://ga-dc.github.io/hyrule_potion_shop

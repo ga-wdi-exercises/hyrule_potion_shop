@@ -4,7 +4,7 @@ All the flexbox properties have been removed from `holygrail.css`. Fill in the b
 
 It should follow the concept of the [Holy Grail layout](https://mdn.mozillademos.org/files/3760/HolyGrailLayout.png).
 
-For example, this:
+What we mean by "filling in the blanks" is taking this:
 
 ```css
 div{
@@ -12,7 +12,7 @@ div{
 }
 ```
 
-...should become this:
+...and turning it into this:
 
 ```css
 div{
@@ -22,4 +22,4 @@ div{
 
 Feel free to take a look at our solution at the link below -- but only peek at the CSS if you're really stuck!
 
-Here's one solution: http://ga-dc.github.io/hyrule_potion_shop
+Here's one solution: http://ga-wdi-exercises.github.io/hyrule_potion_shop/

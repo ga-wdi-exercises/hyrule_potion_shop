@@ -2,6 +2,8 @@
 
 All the flexbox properties have been removed from `holygrail.css`. Fill in the blanks to make the website look nice and responsive again!
 
+(`styles.css` contains all the styling not relevant to flexbox. Feel free to look at it, but don't modify it!)
+
 It should follow the concept of the [Holy Grail layout](https://mdn.mozillademos.org/files/3760/HolyGrailLayout.png).
 
 What we mean by "filling in the blanks" is taking this:

@@ -1,24 +1,24 @@
 body{
   min-height:100vh;
-  /*display:*/
-  /*flex-direction:*/
+  /*display: */
+  /*flex-direction: */
 }
 body>*{
   /*display:*/
 }
 main{
   /*flex-grow:*/
-  /*display:*/
-  /*flex-direction:*/
+  display: flex;
+  /*flex-direction: row;*/
 }
 .content{
-  /*flex-grow:*/
+  flex-grow: 2;
 }
 nav{
   /*order:*/
 }
 aside{
-  /*order:*/
+  order: 1;
 }
 
 main>*{
@@ -39,7 +39,7 @@ nav, aside{
 
 @media screen and (max-width: 620px){
   main{
-    /*flex-direction:*/
+    flex-direction: column;
   }
   main>*:not(:nth-child(1)){
     margin-left:10px;
@@ -49,10 +49,10 @@ nav, aside{
     /*order:*/
   }
   nav{
-    /*order:*/
+    order: 1;
   }
   aside{
-    /*order:*/
+    order: 2;
   }
   footer{
     /*order:*/

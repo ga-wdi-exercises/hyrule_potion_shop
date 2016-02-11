@@ -1,21 +1,11 @@
 body{
   min-height:100vh;
-  /*display: */
-  /*flex-direction: */
-}
-body>*{
-  /*display:*/
 }
 main{
-  /*flex-grow:*/
   display: flex;
-  /*flex-direction: row;*/
 }
 .content{
   flex-grow: 2;
-}
-nav{
-  /*order:*/
 }
 aside{
   order: 1;
@@ -45,17 +35,11 @@ nav, aside{
     margin-left:10px;
     margin-top:0px;
   }
-  main{
-    /*order:*/
-  }
   nav{
     order: 1;
   }
   aside{
     order: 2;
-  }
-  footer{
-    /*order:*/
   }
   nav ul{
     text-align:center;

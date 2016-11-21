@@ -2,13 +2,13 @@ body{
   min-height:100vh;
 }
 main{
-  /* display: */
+  display: flex;
 }
 .content{
-  /* flex-grow: */
+  flex-grow: 1;
 }
 aside{
-  /* order: */
+  order: 1;
 }
 
 main>*{
@@ -29,17 +29,17 @@ nav, aside{
 
 @media screen and (max-width: 620px){
   main{
-    /* flex-direction: */
+    flex-direction: column;
   }
   main>*:not(:nth-child(1)){
     margin-left:10px;
     margin-top:0px;
   }
   nav{
-    /* order: */
+    order: -1;
   }
   aside{
-    /* order: */
+    order: 1;
   }
   nav ul{
     text-align:center;
